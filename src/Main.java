@@ -46,6 +46,6 @@ public class Main {
         if (operacaoValida) {
             System.out.printf("Resultado: %.2f %c %.2f = %.2f\n", num1, operacao, num2, resultado);
         }
-
+        input.close();
     }
 }
